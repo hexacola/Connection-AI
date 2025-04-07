@@ -1,0 +1,59 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Browser window background -->
+  <rect x="0" y="0" width="800" height="500" rx="10" fill="#262626"/>
+  
+  <!-- Browser header with tabs -->
+  <rect x="0" y="0" width="800" height="40" rx="10 10 0 0" fill="#161616"/>
+  <circle cx="20" cy="20" r="7" fill="#da1e28"/>
+  <circle cx="44" cy="20" r="7" fill="#F1C21B"/>
+  <circle cx="68" cy="20" r="7" fill="#24A148"/>
+  
+  <!-- URL bar -->
+  <rect x="120" y="10" width="560" height="20" rx="10" fill="#393939"/>
+  <text x="140" y="24" font-family="Arial" font-size="12" fill="#c6c6c6">https://www.example.com/message</text>
+  
+  <!-- Website content area -->
+  <rect x="10" y="50" width="780" height="440" rx="4" fill="#1A1A1A"/>
+  
+  <!-- Message container -->
+  <rect x="100" y="100" width="600" height="120" rx="6" fill="#262626" stroke="#393939" stroke-width="1"/>
+  <text x="120" y="130" font-family="Arial" font-size="14" fill="#f4f4f4">Hey there! I was wondering if you'd be interested in joining our team for the upcoming project? We could really use someone with your skills and experience.</text>
+  <text x="120" y="160" font-family="Arial" font-size="14" fill="#c6c6c6">Let me know what you think! We're planning to start next week.</text>
+  <text x="120" y="200" font-family="Arial" font-size="12" fill="#a56eff">- Message from colleague</text>
+  
+  <!-- Connection AI UI elements -->
+  <!-- Main Icon -->
+  <circle cx="620" cy="240" r="20" fill="#262626" stroke="#393939" stroke-width="1"/>
+  <text x="620" y="246" font-family="Arial" font-size="20" fill="#a56eff" text-anchor="middle">AI</text>
+  
+  <!-- Toolbar -->
+  <rect x="100" y="280" width="600" height="150" rx="6" fill="#161616" stroke="#393939" stroke-width="1"/>
+  
+  <!-- Toolbar Header -->
+  <rect x="100" y="280" width="600" height="40" rx="6 6 0 0" fill="#262626"/>
+  <text x="130" y="306" font-family="Arial" font-size="16" fill="#f4f4f4">Connection AI</text>
+  <text x="645" y="306" font-family="Arial" font-size="16" fill="#a56eff">📷</text>
+  
+  <!-- Style Buttons -->
+  <rect x="120" y="340" width="90" height="30" rx="15" fill="#262626" stroke="#a56eff" stroke-width="2"/>
+  <text x="165" y="360" font-family="Arial" font-size="12" fill="#f4f4f4" text-anchor="middle">Friend</text>
+  
+  <rect x="220" y="340" width="90" height="30" rx="15" fill="#262626" stroke="#393939" stroke-width="1"/>
+  <text x="265" y="360" font-family="Arial" font-size="12" fill="#f4f4f4" text-anchor="middle">Dating</text>
+  
+  <rect x="320" y="340" width="90" height="30" rx="15" fill="#262626" stroke="#393939" stroke-width="1"/>
+  <text x="365" y="360" font-family="Arial" font-size="12" fill="#f4f4f4" text-anchor="middle">Pro</text>
+  
+  <rect x="420" y="340" width="90" height="30" rx="15" fill="#262626" stroke="#393939" stroke-width="1"/>
+  <text x="465" y="360" font-family="Arial" font-size="12" fill="#f4f4f4" text-anchor="middle">Rizz</text>
+  
+  <rect x="520" y="340" width="90" height="30" rx="15" fill="#262626" stroke="#393939" stroke-width="1"/>
+  <text x="565" y="360" font-family="Arial" font-size="12" fill="#f4f4f4" text-anchor="middle">Chill</text>
+  
+  <!-- Chat Input -->
+  <rect x="120" y="390" width="480" height="30" rx="15" fill="#262626" stroke="#393939" stroke-width="1"/>
+  <text x="140" y="410" font-family="Arial" font-size="12" fill="#727272">Ask a question about this message...</text>
+  
+  <circle cx="650" cy="405" r="15" fill="#a56eff"/>
+  <text x="650" y="410" font-family="Arial" font-size="14" fill="#161616" text-anchor="middle">➤</text>
+</svg> 

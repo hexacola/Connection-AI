@@ -1,0 +1,40 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="300" rx="10" fill="#262626"/>
+  
+  <!-- Message box -->
+  <rect x="50" y="50" width="500" height="200" rx="6" fill="#1A1A1A" stroke="#393939" stroke-width="1"/>
+  
+  <!-- Regular text -->
+  <text x="70" y="90" font-family="Arial" font-size="14" fill="#c6c6c6">Hi David,</text>
+  
+  <!-- Selected text with highlight -->
+  <rect x="70" y="110" width="460" height="50" rx="3" fill="rgba(165, 110, 255, 0.2)" stroke="#a56eff" stroke-width="1"/>
+  <text x="70" y="130" font-family="Arial" font-size="14" fill="#f4f4f4">I wanted to discuss the project timeline with you. Could we meet sometime this week to go over the details? I have some concerns about the current deadline.</text>
+  
+  <!-- Rest of the message -->
+  <text x="70" y="170" font-family="Arial" font-size="14" fill="#c6c6c6">Looking forward to your response.</text>
+  <text x="70" y="200" font-family="Arial" font-size="14" fill="#c6c6c6">Best regards,</text>
+  <text x="70" y="220" font-family="Arial" font-size="14" fill="#c6c6c6">Sarah</text>
+  
+  <!-- Expanded Action Icons -->
+  <circle cx="520" cy="100" r="16" fill="#262626" stroke="#393939" stroke-width="1"/>
+  <circle cx="520" cy="100" r="15" fill="#161616"/>
+  <text x="520" y="104" font-family="Arial" font-size="10" fill="#a56eff" text-anchor="middle">Chat</text>
+  
+  <circle cx="520" cy="140" r="16" fill="#262626" stroke="#393939" stroke-width="1"/>
+  <circle cx="520" cy="140" r="15" fill="#161616"/>
+  <text x="520" y="144" font-family="Arial" font-size="9" fill="#24A148" text-anchor="middle">Fix</text>
+  
+  <!-- Mouse cursor pointing to chat icon -->
+  <path d="M490 100 L500 90 L500 110 Z" fill="#f4f4f4"/>
+  
+  <!-- Labels with connecting lines -->
+  <line x1="420" y1="80" x2="495" y2="100" stroke="#a56eff" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="300" y="70" width="115" height="20" rx="10" fill="#161616" stroke="#a56eff" stroke-width="1"/>
+  <text x="357" y="85" font-family="Arial" font-size="12" fill="#f4f4f4" text-anchor="middle">Styles / Chat</text>
+  
+  <line x1="420" y1="160" x2="495" y2="140" stroke="#24A148" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="300" y="150" width="115" height="20" rx="10" fill="#161616" stroke="#24A148" stroke-width="1"/>
+  <text x="357" y="165" font-family="Arial" font-size="12" fill="#f4f4f4" text-anchor="middle">Grammar Fix</text>
+</svg> 
