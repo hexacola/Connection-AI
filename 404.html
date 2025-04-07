@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - Connection AI</title>
+    <link rel="icon" href="images/icon128.png" type="image/png">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .error-page {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        .error-code {
+            font-size: 8rem;
+            font-weight: 700;
+            color: var(--highlight-color);
+            margin-bottom: 1rem;
+            line-height: 1;
+        }
+        
+        .error-title {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .error-message {
+            max-width: 500px;
+            margin-bottom: 2rem;
+        }
+        
+        .back-home {
+            background-color: var(--highlight-color);
+            color: var(--primary-bg);
+            padding: 0.75rem 1.5rem;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .back-home:hover {
+            background-color: #ba84ff;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(165, 110, 255, 0.3);
+            color: var(--primary-bg);
+        }
+        
+        .error-icon {
+            font-size: 5rem;
+            color: var(--highlight-color);
+            margin-bottom: 2rem;
+            opacity: 0.7;
+            animation: pulse 3s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-page">
+        <i class="fas fa-robot error-icon"></i>
+        <div class="error-code">404</div>
+        <h1 class="error-title">Page Not Found</h1>
+        <p class="error-message">The page you are looking for doesn't exist or has been moved. Our AI couldn't find it either, and it's pretty smart!</p>
+        <a href="index.html" class="back-home">
+            <i class="fas fa-home"></i> Back to Home
+        </a>
+    </div>
+</body>
+</html> 
